@@ -23,7 +23,6 @@ async def ajuda(ctx):
     embed.add_field(name="!consultar_caixa", value="Comando para verificar quanto tínhamos de saldo ao final do mês anterior nos nossos bancos, o X e o Y.", inline=False)
     embed.add_field(name="!consultar_beneficio2 <nome-completo>", value="Comando para verificar seu saldo de Benefício 2. Para pesquisar, utilize seu nome completo ou conforme escrito da planilha do Benefício 2.", inline=False)
     embed.add_field(name="!perguntas_frequentes", value="Comando para visualizar a lista de comandos relacionadas ao Benefício 3, à Benefício 1 e à própria subárea.", inline=False)
-    embed.add_field(name="!faturamento", value="Comando para verificar faturamento do ano atual.", inline=False)
 
     await ctx.send(embed=embed)
 
